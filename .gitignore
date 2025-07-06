@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional cache folders
+.cache/
+dist/
+tmp/
+temp/
+
+# VSCode settings (if using)
+.vscode/
+
+# Ollama models or runtime cache if any local files
+ollama_models/
+ollama_cache/
+
+# Ignore compiled output if applicable
+build/
+
+# Mac system files
+._*
+
+# Optional: backup files
+*.bak
+*.swp
+*.swo
+
+# IDE files
+.idea/
